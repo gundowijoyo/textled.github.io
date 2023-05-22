@@ -1,0 +1,20 @@
+{
+	"name": "TextLed",
+	"short_name": "TextLed",
+	"short_url": "/index.html"'
+	"display": "standalone",
+   "background_color": "#1111"
+   "theme_color": "#1111"
+   "icon": [
+	{
+		"src": ""
+		"size": ""
+		"type": ""
+	}
+	{
+		"src": ""
+		"size": ""
+		"type": ""
+	}
+	]
+}

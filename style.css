@@ -1,0 +1,105 @@
+		*{
+			margin: 0;
+			padding:0 ;
+			top: 0;
+		}
+		body{
+			background-color: black;
+			width: 100vw;
+		}
+		  marquee{
+		  font-size: 80px;
+		  }
+		#hamburger img{
+			position: absolute;
+			right: 3px;
+			width: 30px;
+			top: 3px;
+		}
+		input[type="text"]{
+			outline-color: white;
+			color: white;
+			background-color: #252525;
+			border-radius: 2px;
+			width: 150px;
+		}
+		input[type="button"]{
+			border-radius: 3px;
+			outline: none;
+		}
+		input[type="reset"]{
+			border-radius: 3px;
+			outline: none;
+		}
+		input[type="color"]{
+			outline-color: silver;
+		}
+		input[type="button"]:hover{
+			background-color: #252525;
+			color: silver;
+			outline: none;
+		}
+	input[type="reset"]:hover{
+	background-color: #252525;
+	color: silver;
+	outline: none;
+		}
+		input[type="range"]{
+		width: 170px;
+		outline-color: silver;
+		}
+	#tebal {
+	background-color: #252525;		
+	color: silver;
+	}
+	#txt{
+	color: silver;
+	}
+	#tx {
+		background-color: #252525;
+	color: silver;
+	}
+		#tutup{
+		  position: fixed;
+		  top:290px;
+		  right: 5px;
+		  border: 1px solid;
+		  font-size: 11px;
+		  border-radius: 3px;
+      background-color: silver;
+			outline: none;
+		}
+		#nav {
+		  position:fixed;
+			width: 100%;
+			height: 40%;
+			display: none;
+		}
+
+		#nav ul{
+			background-color: transparent;
+		}
+		#nav li{
+			color: white;
+			padding: 5px;
+			list-style-type: none;
+		}
+		select{
+			background-color: #252525;
+			color: silver;
+			outline: silver;
+			border-radius: 3px;
+		}
+		select:hover{
+			outline: silver;
+		}
+	  @media screen and (max-width:1900px){
+		#marquee{
+				margin-top: 110px;
+			}
+		}
+		@media screen and (max-width:430px){
+		#marquee{
+				margin-top: 300px;
+			}
+		}
