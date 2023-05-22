@@ -1,4 +1,4 @@
-    let ubahText = document.getElementById("ubahText");
+   /* let ubahText = document.getElementById("ubahText");
     let reset     = document.getElementById("reset");
     let warnaText = document.getElementById("warnaText");
     let warnaLatar = document.getElementById("warnaLatar");
@@ -77,4 +77,4 @@ localStorage.setItem('one',ubahText.value)
 	});
 	let seven = localStorage.getItem('seven')
 	que.direction = seven
-	//untuk menyimpan local storge 
+	//untuk menyimpan local storge */
