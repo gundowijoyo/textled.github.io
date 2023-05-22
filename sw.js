@@ -1,4 +1,4 @@
-self.addEventListener('install',function(event){
+window.onload.self.addEventListener('install',function(event){
 //promosie2
 	event.waitUntil(
 	caches.open('cache-ku').then(function(cache){
