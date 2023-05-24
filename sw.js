@@ -3,14 +3,15 @@ self.addEventListener('install',function(event){
 	event.waitUntil(
 	caches.open('cache-ku-v7').then(function(cache){
 	  	return cache.addAll([
-			'/'
+			'/',
 			
 			
 	  		'/index.html',
 	  		'/style.css',
 	  		
 	  		'/IMG_20230502_232903-removebg-preview.png'
-	  		])
+	 		
+		])
 	})	
 	)
 })
