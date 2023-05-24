@@ -1,0 +1,21 @@
+{
+	"name": "TextLed",
+	"short_name": "TextLedOne",
+	"short_url": "/index.html"'
+	"display": "standalone",
+   "background_color": "#FFE902",
+   "theme_color": "#FFE1CA",
+   "orientation": "portrait-primary",
+   "icons": [
+	{
+		"src": "img/icons/icon-72x72.jpg"
+		"sizes": "72x72"
+		"type": "image/jpeg"
+	}
+	{
+		"src": "img/icons/icon-140x140.jpg"
+		"sizes": "140x140"
+		"type": "image/jpeg"
+	}
+	]
+}
