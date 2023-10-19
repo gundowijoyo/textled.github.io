@@ -21,8 +21,8 @@
    };
   	 //nampilkan text
 function tampil(){
- let  que = document.getElementById("marquee");
-let ubahText = document.getElementById("ubahText");
+// let  que = document.getElementById("marquee");
+//let ubahText = document.getElementById("ubahText");
 que.innerText = ubahText.value;
 localStorage.setItem('one',ubahText.value);
  };
@@ -31,7 +31,7 @@ localStorage.setItem('one',ubahText.value);
 	que.innerText =  one;
 	//reset text
 	function hapus(){
-		 let que = document.getElementById("marquee");
+		// let que = document.getElementById("marquee");
 		 que.innerText = "";
 	};
 	//warna tex
