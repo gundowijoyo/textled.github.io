@@ -78,3 +78,5 @@ localStorage.setItem('one',ubahText.value);
 	let seven = localStorage.getItem('seven');
 	que.direction = seven;
 	//untuk menyimpan local storge 
+
+      alert("setelah mengsetting harap refresh halaman untuk melihat hasil terimakasih ☺️")
